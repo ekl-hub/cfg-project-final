@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This head contains bootstrap link and own stylesheet. Also contains the title of this html page.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="country.css">
+    <title>SA</title>
+</head>
+
+<body>
+    <header>
+        <!--The following section contains code for the bootstrap navigation bar-->
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">travelverse</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- <li class="nav-item"> 
+                            <a class="nav-link active" aria-current="page" href="#">FAQs</a>
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="../signup.html"><b>Sign Up</b></a>
+                        </li>
+
+                    </ul>
+                    <span class="navbar-text">
+                        <a class="nav-link" href="../../signin.html">Sign In</a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!--This code organises the heading in to a row and aligns it using the bootstrap grid container-->
+        <div class="row alignment">
+            <div class="col-sm-6 offset-sm-6">
+                <div class="country-name">
+                    <h1>South Africa</h1>
+                </div>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" disabled />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" checked />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" disabled />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" disabled />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" disabled />
+                    <label for="star1" title="text">1 star</label>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </header>
+    </header>
+    <!--A container has been created to encase the main part of the page. The container contains One row split in to 2 columns  each classed with it's own div to separate left and right(utilises bootstrap grid)-->
+    <!--Within the container, code for the image carousel and review box on the left, and code for the intro, info and comment box on the right.-->
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm">
+                <div id="SouthAfricaGallery" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Images/sa-colourful-houses.jpg" class="d-block w-100" alt="sa-colourful-houses"
+                                target="_blank">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/sa-nature.jpg" class="d-block w-100" alt="sa-nature" target="_blank">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/sa-penguins.jpg" class="d-block w-100" alt="sa-penguins" target="_blank">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/sa-table-mountain.jpg" class="d-block w-100" alt="sa-table-mountain"
+                                target="_blank">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#SouthAfricaGallery"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#SouthAfricaGallery"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="reviews">
+                    <div class="container my-2">
+                        <div class="row d-flex justify-content-center">
+                            <div class="card text-dark scroll">
+                                <div class="card-body p-4">
+                                    <h4 class="mb-0">Reviews</h4>
+                                    <p class="fw-light mb-4 pb-2">Latest user reviews </p>
+
+                                    <div class="d-flex flex-start">
+                                        <img class="rounded-circle shadow-1-strong me-3" src="Images/guest.jpg"
+                                            alt="avatar" width="60" height="60" />
+                                        <div>
+                                            <h6 class="fw-bold mb-1">Guest</h6>
+                                            <div class="d-flex align-items-center mb-3">
+                                                <p class="mb-0">
+                                                    Feb 11, 2023
+
+                                                </p>
+                                                <a href="#!" class="link-muted"><i
+                                                        class="fas fa-pencil-alt ms-2"></i></a>
+                                                <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                                <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            </div>
+                                            <p class="mb-0">
+                                                Amazing visit! I stayed in the Backpack Hostel with friends and
+                                                absoloutley loved it!
+                                                I felt safe and really enjoyed hanging with the locals. Thank you to the
+                                                lovely staff for their impeccable service!
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr class="my-0" />
+
+                                <div class="card-body p-4">
+                                    <div class="d-flex flex-start">
+                                        <img class="rounded-circle shadow-1-strong me-3" src="Images/kara brown.jpg"
+                                            alt="avatar" width="60" height="60" />
+                                        <div>
+                                            <h6 class="fw-bold mb-1">Kara Brown</h6>
+                                            <div class="d-flex align-items-center mb-3">
+                                                <p class="mb-0">
+                                                    Jan 07, 2023
+                                                    <span class="badge bg-success">Verified User</span>
+                                                </p>
+                                                <a href="#!" class="link-muted"><i
+                                                        class="fas fa-pencil-alt ms-2"></i></a>
+                                                <a href="#!" class="text-success"><i
+                                                        class="fas fa-redo-alt ms-2"></i></a>
+                                                <a href="#!" class="link-danger"><i class="fas fa-heart ms-2"></i></a>
+                                            </div>
+                                            <p class="mb-0">
+                                                I recently went on a trip to Cape Town, South Africa and it was an
+                                                incredible
+                                                experience! Table Mountain was absolutely stunning and I was
+                                                in awe of their intricate design and historical significance. The
+                                                people were incredibly friendly and welcoming, and I
+                                                loved learning about their culture and traditions. The food was also
+                                                amazing, with plenty of delicious local dishes to try. Overall, I
+                                                had an unforgettable time in SA and would highly recommend it
+                                                to anyone looking for a unique and enriching travel experience.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr class="my-0" style="height: 1px;" />
+
+                                <div class="card-body p-4">
+                                    <div class="d-flex flex-start">
+                                        <img class="rounded-circle shadow-1-strong me-3"
+                                            src="Images/stephanie-young.jpg" alt="avatar" width="60" height="60" />
+                                        <div>
+                                            <h6 class="fw-bold mb-1">Stephanie Young</h6>
+                                            <div class="d-flex align-items-center mb-3">
+                                                <p class="mb-0">
+                                                    June 12, 2022
+
+                                                </p>
+                                                <a href="#!" class="link-muted"><i
+                                                        class="fas fa-pencil-alt ms-2"></i></a>
+                                                <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                                                <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                                            </div>
+                                            <p class="mb-0">
+                                                I recently went on a trip to Limpopo, National Kruger Park, on a safari
+                                                tour and it was great.
+                                                I loved it but it ended up raining which wasn't so great. Overall a
+                                                lovely place
+                                                but would prefer to visit when the sun is out.
+
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm">
+                <div class="introduction">
+                    <p> Sawubona! [sawuˈɓɔːna] (Hello in Zulu) South Africa is a stunning country that boasts an
+                        incredibly diverse range
+                        of landscapes, cultures, and experiences. From the bustling cities of Johannesburg and Cape Town
+                        to
+                        the wild savannahs of Kruger National Park and the rugged coastline of the Garden Route,
+                        there is something for every type of traveler.
+                        The country is also home to some of the most iconic natural landmarks in the world, such as
+                        Table Mountain and the Drakensberg Mountains,
+                        and is renowned for its wildlife.
+                        Beyond the natural beauty, South Africa is a melting pot of cultures and traditions, with a rich
+                        history of
+                        struggle and triumph that has shaped its people and its society. Visitors can explore the
+                        country's heritage sites,
+                        visit museums, and sample traditional cuisine, music, and dance. Whether you're an
+                        adventure-seeker, a history buff,
+                        or simply looking for a beautiful and diverse destination, South Africa is a must-visit. </p>
+                </div>
+
+
+                <!--Use of an accordion to minimise text on the page for user friendly experience. Each accordion header is for each paragraph of information.-->
+                <!--accordion id is to specify what accordion set it is. accordion-header specifies the 'outside' of the accordion, toggled to be collapsed by default-->
+                <!--id of collapse one is to specify the first box of the accordion that contains the hidden info, and should be hidden from user until clicked-->
+                <!--accordion body holds the information inside, you can style the info in lists, or as a paragraph-->
+
+                <div class="accordion" id="accordion-southafrica">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <h3>Culture and Customs</h3>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse hide"
+                            data-bs-parent="#accordion-southafrica">
+                            <div class="accordion-body">
+                                <p>There are many cultural customs to be aware of in South Africa. Here is some brief
+                                    information
+                                    about what to expect. By being aware of these cultural customs, visitors to South
+                                    Africa can show respect for the local people and enjoy a more authentic and
+                                    enriching travel experience</p>
+                                <ul>
+                                    <li>Greetings: South Africans place a high value on greetings, so it's essential to
+                                        greet people respectfully. A common greeting is "Sawubona" in Zulu, which means
+                                        "I see you."</li>
+                                    <li>Food: South African cuisine is diverse and delicious, with dishes like bobotie,
+                                        biltong, and chakalaka. It's customary to eat with your hands in many cultures,
+                                        but always ask if you are unsure.</li>
+                                    <li>Dress code: South Africans dress conservatively, so it's best to dress modestly,
+                                        especially when visiting religious or cultural sites.</li>
+                                    <li>Respect for elders: In many African cultures, elders are highly respected and
+                                        regarded as sources of wisdom. It's important to show respect to older people
+                                        and use proper titles when addressing them.</li>
+                                    <li>Language: South Africa has 11 official languages, with English, Afrikaans, and
+                                        Zulu being the most widely spoken. It's always polite to learn some basic
+                                        phrases in the local language.</li>
+                                    <li>Tipping: It's customary to tip around 10% to 15% in restaurants and for services
+                                        such as hairdressing and taxis.</li>
+                                    <li>Religion: South Africa is a religiously diverse country, with Christianity,
+                                        Islam, and traditional African religions being the most prevalent. It's
+                                        important to respect religious sites and customs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h3>Safety Tips</h3>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse hide"
+                            data-bs-parent="accordion-southafrica">
+                            <div class="accordion-body">
+                                <ol>
+                                    <li>Safety: Unfortunately, South Africa has a high rate of violence against women.
+                                        It's important to take precautions, such as not walking alone at night, avoiding
+                                        deserted areas, and being aware of your surroundings.</li>
+                                    <li>Plan ahead: Research your destination and make a plan for getting around safely.
+                                        Avoid walking alone at night and use reputable taxi or ride-sharing services.
+                                    </li>
+                                    <li>Be aware of your surroundings: Always be aware of your surroundings and trust
+                                        your instincts. Avoid deserted areas and be cautious in busy areas like markets
+                                        and transportation hubs.</li>
+
+                                    <li>Dress appropriately: Dress modestly and avoid revealing clothing, especially in
+                                        rural areas. It's a good idea to have your shoulders and knees covered.</li>
+
+                                    <li>Keep valuables secure: Keep your valuables secure, and avoid wearing expensive
+                                        jewelry or carrying large amounts of cash. Use hotel safes or safety deposit
+                                        boxes to store important documents.</li>
+
+                                    <li>Use caution when socializing: Be cautious when socializing and avoid going out
+                                        alone with strangers. Don't leave your drink unattended, and watch for signs of
+                                        drugging.</li>
+
+                                    <li>Know how to ask for help: Know how to ask for help in case of an emergency. Keep
+                                        emergency contact numbers with you and know how to contact the police, embassy,
+                                        or consulate.</li>
+
+                                    <li>Use technology: Use technology to stay connected and share your location with
+                                        trusted friends or family members. Use a reputable GPS app or service for
+                                        getting around.</li>
+
+
+                                </ol>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h3>Current Travel Outlook</h3>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse hide"
+                            data-bs-parent="accordion-southafrica">
+                            <div class="accordion-body">
+                                <p>Please check restrictions on travel to South Africa on your official government
+                                    website.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <form action="#">
+                    <label for="fname" id="comment">Review your experience here!
+                        <div>
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                        </div>
+                    </label><br>
+                    <textarea type="text" id="fname" name="fname"></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--This is where footer for the page should be, with links to contact, index, etc.-->
+    <footer>
+        <p>Contact us</br><a href="mailto:travelverse@example.com">travelverse@example.com</a>
+        <p>
+
+    </footer>
+
+
+    <!--Js for bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
