@@ -1,3 +1,4 @@
+//Emily Lim 02-05-2023
 // This variable identifies the form in html by the id "country"
 let form = document.getElementById("country");
 //These arrays contains strings that are the country names
